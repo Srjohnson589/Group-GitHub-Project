@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .page-layout {
@@ -20,4 +20,72 @@
 
 img {
     width: 800px;
+}
+
+.grid_container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    grid-template-rows: repeat(3,200px);
+}
+
+.grid_item1 {
+    background-color: rebeccapurple;
+    grid-column: 1/1;
+    grid-row: 1/3;
+}
+
+.grid_item2 {
+    /* background-color: brown; */
+    grid-column: 1/1;
+    grid-row: 3/4;
+}
+
+.grid_item3 {
+    background-color: green;
+    grid-column: 2/4;
+    grid-row: 1/4;
+}
+
+.flex_container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex_item1 {
+    margin: 3%;
+}
+
+.sign_up_txt {
+    font-size: 15px;
+    color: #242424;
+}
+
+.button_sign_up {
+    height: 35px;
+    width: 140px;
+    border-radius: 50px;
+    border: 2px solid #0850F8;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #0850F8;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.flex_container2 {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+}
+
+.flex_item2 {
+    margin: 0% 5%;
+}
+
+svg {
+    border: 3px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    color: #242424;
 }
