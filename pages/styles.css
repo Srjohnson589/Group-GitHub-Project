@@ -71,3 +71,29 @@ img {
 .placeholder {
     height: 400px;
 }
+
+.signup_inputs{
+    display: block; 
+    margin-bottom: 35px; 
+    border-radius: 20px; 
+    height: 40px;
+    width: 350px;
+}
+
+.signup_header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 30px;
+}
+
+.signup_section{
+    margin-left: 20px;
+    height: 400px
+}
+
+.test1 {
+    background-image: url("../images/user_icon.svg");
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;
+}
