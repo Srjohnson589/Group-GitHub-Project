@@ -91,6 +91,22 @@ img {
     height: 400px;
 }
 
+.input-container {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  left: 10px; /* Adjust the left positioning of the icon */
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999; /* Adjust the color of the icon */
+}
+
+input {
+  padding-left: 30px; /* Adjust the left padding to make space for the icon */
+}
+
 .test1 {
     background-image: url("../images/user_icon.svg");
     background-size: 30px 30px;
